@@ -14,3 +14,21 @@ Scrivi un programma che stampi in console i
 
  */
 
+let divEl = document.getElementById("fizz-buzz");
+
+for (let i = 1; i <= 100; i++){
+
+    let newEl = document.createElement("span");
+    newEl.classList.add("col");
+    divEl.append(newEl);
+
+    if ((i % 3 == 0) && (i % 5 == 0)){
+        newEl.innerHTML = "FizzBuzz" ;
+    } else if (i % 3 == 0){
+        newEl.innerHTML = "Fizz";
+    } else if (i % 5 == 0){
+        newEl.innerHTML = "Buzz";
+    } else{
+        newEl.innerHTML = i;
+    }
+}

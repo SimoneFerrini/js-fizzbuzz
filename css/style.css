@@ -1,0 +1,17 @@
+.my-body-bg-color{
+    background-color: rgb(22, 22, 80);
+    text-align: center;
+    padding: 2em 0;
+}
+
+.my-title-style{
+    color: white;
+    font-size: 3em;
+}
+
+.my-div-style{
+    width: 90%;
+    margin: 1em auto;
+    background-color: rgb(27, 106, 106);
+    border-radius: 30px;
+}

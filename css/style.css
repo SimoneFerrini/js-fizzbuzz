@@ -15,3 +15,25 @@
     background-color: rgb(27, 106, 106);
     border-radius: 30px;
 }
+
+.my-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 150, 211);
+}
+
+.my-fizz{
+    background-color: rgb(106, 191, 106);
+}
+
+.my-buzz{
+    background-color: rgb(244, 169, 72);
+}
+
+.my-fizzbuzz{
+    background-color: rgb(213, 71, 71);
+}

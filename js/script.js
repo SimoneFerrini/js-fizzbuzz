@@ -19,15 +19,18 @@ let divEl = document.getElementById("fizz-buzz");
 for (let i = 1; i <= 100; i++){
 
     let newEl = document.createElement("span");
-    newEl.classList.add("col");
+    newEl.classList.add("col", "my-square");
     divEl.append(newEl);
 
     if ((i % 3 == 0) && (i % 5 == 0)){
         newEl.innerHTML = "FizzBuzz" ;
+        newEl.classList.add("my-fizzbuzz");
     } else if (i % 3 == 0){
         newEl.innerHTML = "Fizz";
+        newEl.classList.add("my-fizz");
     } else if (i % 5 == 0){
         newEl.innerHTML = "Buzz";
+        newEl.classList.add("my-buzz");
     } else{
         newEl.innerHTML = i;
     }
